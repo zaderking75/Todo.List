@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sticker {
+  cursor: pointer;
+}
+.carta {
+    width: 500px;
+    border: 1px solid black;
+    background-color: rgb(235, 213, 213);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .contenido {
+    font-size: 16px;
+
+  }
+</style>
+<body>
+    <div  id="tarea" class="carta">
+        <div class="titulo">Todo List</div>
+        <hr>
+        <div class="contenido">
+            <h4>Nueva Tarea</h4>
+            <input id="nuevaTarea" placeholder="Coloque su tarea">
+            <button id="agregarTarea">Agregar</button><br>
+            <h2>Tareas: </h2>
+            <span id="cuenta-tareas"> </span><br>
+            <span id="tareas-realizadas"> </span>
+
+            <ul id="tareas"></ul>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/script.js"></script>
+</html>
